@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to left, #1313de, #ef4c4c, #af2d84);
+}
+.heading{
+    text-align: center;
+    background-color: rgba(39, 121, 122, 0.2);
+    padding: 20px;
+    margin: 20px 100px;
+}
+
+h1{
+    font-size: 50px;
+    padding-bottom: 16px;
+    text-decoration: underline;
+}
+
+.para{
+    font-size: 25px;
+    color: #ccc;
+}
+
+.ques{
+    margin-top: 15px;
+    padding-top: 30px;
+    position: absolute;
+    top: 60%;
+    left: 50%;    
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    width: 90vh;
+    background-color: rgba(0, 255, 255, 0.2);
+}
+
+.Q2, .Q3, .Q4, .Q5, .thanks{
+    display: none;
+}
+
+h2{
+    margin-top:20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+ul{
+    margin-top:60px;
+}
+
+a{
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 30px;
+    background: rgba(112, 104, 111, 0.3);
+}
+
+a:hover{
+    color: black;
+    transition: 0.6s ease;
+}
+
+.paragrph{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.typara{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
